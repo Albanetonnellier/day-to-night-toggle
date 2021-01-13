@@ -366,7 +366,7 @@ input#switch:checked + *:before {
   backdrop-filter: blur(6px);
 }
 .switch body{
-  background-color: #dddddd;
+  background-color: #1d1b1d;
 }
 .switch  .toggle-wrapper{
   background:linear-gradient(180deg, rgba(231,95,122,1) 0%, rgba(255,177,104,1) 83%);
