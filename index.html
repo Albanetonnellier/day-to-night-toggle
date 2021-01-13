@@ -3,6 +3,7 @@
 <head>
   <title>Toggle night and day</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
   <div class="container">
@@ -45,5 +46,12 @@
     </div>
     </label>
   </div>
+
+  <script>
+    let checkbox = document.querySelector('input[type="checkbox"]');
+      checkbox.addEventListener('change', function () {
+    document.documentElement.classList.toggle('switch');
+    });
+  </script>
 </body>
 </html>
